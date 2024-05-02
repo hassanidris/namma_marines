@@ -4,7 +4,7 @@ import { nesmaLogo } from "../constants/images";
 const Footer = () => {
   return (
     <footer className="p-4 bg-primary">
-      <div className="wrapper max-w-[1290px] w-full m-auto flex justify-between items-center text-white text-sm">
+      <div className="wrapper max-w-[1290px] w-full m-auto flex flex-col sm:flex-row gap-3 justify-between items-center text-white text-sm">
         <small className="left">
           All Rights Reserved. &copy; Copyright {new Date().getFullYear()} |
           Namma Marines Services
