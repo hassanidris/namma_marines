@@ -14,7 +14,7 @@ const History = () => {
       <div className=" w-full max-w-[1024px] mx-auto  py-10 px-5">
         <h1>History</h1>
         <div className=" flex flex-col sm:flex-row justify-center gap-5">
-          <div className=" flex-[2]">
+          <div className=" flex-[1.5]">
             <p>
               Namma International Marine Services Co. Ltd. is part of Nesma
               Holding Co. Ltd., a flourishing conglomerate in Saudi Arabia and a

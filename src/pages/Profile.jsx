@@ -14,7 +14,7 @@ const Profile = () => {
       <div className=" w-full max-w-[1024px] mx-auto  py-10 px-5">
         <h1>Profile</h1>
         <div className=" flex flex-col sm:flex-row justify-center gap-5">
-          <div className=" flex-[2]">
+          <div className=" flex-[1.5]">
             <p>
               Namma International Marine Services, a subsidiary of Nesma Holding
               Co., a highly respected Saudi corporation. Namma International
