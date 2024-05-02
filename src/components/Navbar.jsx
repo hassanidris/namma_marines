@@ -140,6 +140,8 @@ const Navbar = () => {
                     onClick={toggleClass}
                     activeClassName="is-active"
                     to="https://careers.nesma.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     Career{" "}
