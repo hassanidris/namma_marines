@@ -37,7 +37,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="header__middle bg-white  h-[90px] flex items-center justify-between shadow-lg sticky top-0 px-4">
+    <header className="header__middle bg-white  h-[90px] flex items-center justify-between shadow-lg sticky top-0">
       <div className="container max-w-[1290px] w-full m-auto flex justify-between items-center">
         <div className="left relative flex justify-between w-full">
           {/* Add Logo  */}
@@ -160,10 +160,12 @@ const Navbar = () => {
                     {t("contact")}{" "}
                   </NavLink>{" "}
                 </li>
+                <li className="text-center flex justify-center items-center">
+                  <LanguageSelector />
+                </li>
               </ul>
             </nav>
           </div>
-          <LanguageSelector />
         </div>
       </div>
     </header>
