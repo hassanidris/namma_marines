@@ -1,6 +1,8 @@
 import React from "react";
+import { Trans, useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation(["contact"]);
   return (
     <>
       <section className=" w-full h-[400px]">
@@ -15,20 +17,19 @@ const Contact = () => {
       <div className=" w-full max-w-[1024px] mx-auto  py-10 px-5">
         <div className=" flex flex-col sm:flex-row justify-center gap-8">
           <div className=" flex-1">
-            <h1>Contact Us</h1>
-            <h2>Head Office</h2>
+            <h1>{t("title")}</h1>
+            <h2>{t("office")}</h2>
             <p className=" text-sm">
-              <strong>Tel:</strong> +966-2-648 7203
+              <Trans components={{ b: <strong /> }}>{t("tel")}</Trans>
             </p>
             <p className=" text-sm">
-              <strong>Toll free:</strong> 920003232
+              <Trans components={{ b: <strong /> }}>{t("toll")}</Trans>
             </p>
             <p className=" text-sm">
-              <strong>Fax:</strong> +966-2-648 7237
+              <Trans components={{ b: <strong /> }}>{t("fax")}</Trans>
             </p>
             <p className=" text-sm">
-              <strong>Address:</strong> 5th Floor, Hotel Jeddah Trident, Port
-              Road, Hindhavia Area
+              <Trans components={{ b: <strong /> }}>{t("address")}</Trans>
             </p>
           </div>
           <div className=" flex-[1.7]">
@@ -41,7 +42,7 @@ const Contact = () => {
                         for="first-name"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        First name
+                        {t("first-name")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -59,7 +60,7 @@ const Contact = () => {
                         for="last-name"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        Last name
+                        {t("last-name")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -77,7 +78,7 @@ const Contact = () => {
                         for="email"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        Email address
+                        {t("email")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -94,7 +95,7 @@ const Contact = () => {
                         for="about"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        Message
+                        {t("message")}
                       </label>
                       <div className="mt-2">
                         <textarea
@@ -120,7 +121,7 @@ const Contact = () => {
                   type="submit"
                   className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Send
+                  {t("send")}
                 </button>
               </div>
             </form>

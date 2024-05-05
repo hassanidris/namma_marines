@@ -5,8 +5,13 @@ import {
   fleetAmanah,
   fleetAziz,
 } from "../constants/images";
+import { Trans, useTranslation } from "react-i18next";
 
 const Fleets = () => {
+  const { t } = useTranslation(["fleet"]);
+  const { title, operator, type, number, grt } = t("aziz");
+  const { title2, operator2, type2, number2, grt2 } = t("amanah");
+  const { title3, operator3, type3, number3, grt3 } = t("alnawa");
   return (
     <>
       <section className=" w-full h-[400px]">
@@ -18,39 +23,26 @@ const Fleets = () => {
       </section>
       <div className=" w-full max-w-[1024px] mx-auto  py-10 px-5">
         <div>
-          <h1>Fleets</h1>
-          <p>
-            Safety, dependability and comfort drive our services at Namma
-            Shipping Lines and ensure that our customers are satisfied because
-            their needs are met. We believe that a strong fleet with comfortable
-            and affordable accommodations along with the services our customers
-            need, is crucial to ensuring a safe, pleasant journey. Below are
-            details about the fleet, both passenger and cargo vessels.
-          </p>
+          <h1>{t("name")}</h1>
+          <p>{t("description")}</p>
         </div>
         <div className=" w-full max-w-[920px] mx-auto  py-10 px-5">
           <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
             <div>
-              <h2>M/V AZIZ EXPRESS :</h2>
+              <h2>{title}</h2>
               <p>
                 <span>
-                  <strong>Vessel Present Name:</strong> M/V AZIZ EXPRESS
+                  <Trans components={{ b: <strong /> }}>{operator}</Trans>
                 </span>
                 <span>
-                  <strong>Operator:</strong> Namma International Marine Services
+                  <Trans components={{ b: <strong /> }}>{type}</Trans>
                 </span>
                 <span>
-                  <strong>Vessel Type:</strong> Passenger with roll-on/roll-off
-                  vehicle service
-                </span>
-                <span>
-                  <strong>Authorized Number of passengers:</strong> 2000
-                  passengers + 98 Crew
+                  <Trans components={{ b: <strong /> }}>{number}</Trans>
                 </span>
               </p>
-              <p className=" text-sm">Aziz Express Ferry Route:</p>
               <p className=" text-sm">
-                <strong>GRT =</strong> 22,874 MT
+                <Trans components={{ b: <strong /> }}>{grt}</Trans>
               </p>
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">
@@ -63,26 +55,20 @@ const Fleets = () => {
           </article>
           <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
             <div>
-              <h2>F/B Amanah:</h2>
+              <h2>{title2}</h2>
               <p>
                 <span>
-                  <strong>Vessel Present Name:</strong> M/V Amanah
+                  <Trans components={{ b: <strong /> }}>{operator2}</Trans>
                 </span>
                 <span>
-                  <strong>Operator:</strong> Namma International Marine Services
+                  <Trans components={{ b: <strong /> }}>{type2}</Trans>
                 </span>
                 <span>
-                  <strong>Vessel Type:</strong> Passenger with roll-on/roll-off
-                  vehicle service
-                </span>
-                <span>
-                  <strong>Authorized Number of passengers:</strong> 2000
-                  passengers + 98 Crew
+                  <Trans components={{ b: <strong /> }}>{number2}</Trans>
                 </span>
               </p>
-              <p className=" text-sm">Amanah Ferry Route:</p>
               <p className=" text-sm">
-                <strong>GRT =</strong> 19,009 MT
+                <Trans components={{ b: <strong /> }}>{grt2}</Trans>
               </p>
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">
@@ -95,25 +81,20 @@ const Fleets = () => {
           </article>
           <article className="fleetDetails flex justify-between  py-10">
             <div>
-              <h2>F/B ALNawa Express:</h2>
+              <h2>{title3}</h2>
               <p>
                 <span>
-                  <strong>Vessel Present Name:</strong> M/V ALNawa Express
+                  <Trans components={{ b: <strong /> }}>{operator3}</Trans>
                 </span>
                 <span>
-                  <strong>Operator:</strong> Namma International Marine Services
+                  <Trans components={{ b: <strong /> }}>{type3}</Trans>
                 </span>
                 <span>
-                  <strong>Vessel Type:</strong> Cargo with roll-on/roll-off
-                  vehicle service
-                </span>
-                <span>
-                  <strong>Authorized Number of passengers:</strong> 26
+                  <Trans components={{ b: <strong /> }}>{number3}</Trans>
                 </span>
               </p>
-              <p className=" text-sm">Al Nawa Express Ferry Route:</p>
               <p className=" text-sm">
-                <strong>GRT =</strong> 19,009 MT
+                <Trans components={{ b: <strong /> }}>{grt3}</Trans>
               </p>
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">

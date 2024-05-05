@@ -1,7 +1,9 @@
 import React from "react";
 import { bannerServices, iconCargo, iconPassenger } from "../constants/images";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation(["services"]);
   return (
     <>
       <section className=" w-full h-[400px]">
@@ -12,41 +14,21 @@ const Services = () => {
         />
       </section>
       <div className=" w-full max-w-[1024px] mx-auto  py-10 px-5">
-        <h1>Services</h1>
+        <h1>{t("title")}</h1>
         <div className=" flex flex-col sm:flex-row justify-center gap-5">
           <div className=" flex-[2]">
             <article>
-              <h2>Passengers</h2>
-              <p>
-                Namma International Marine Services offers ferry service on the
-                Red Sea between destinations in Saudi Arabia, Egypt and Sudan.
-                The ports currently served are: Duba, Yanbu and Jeddah in the
-                Kingdom of Saudi Arabia, Safaga and Suez in Egypt and Sawakin in
-                Sudan.
-              </p>
-              <p>
-                In addition, our agents can assist you with other travel needs
-                you may have such as hotel accommodation, transportation
-                overland, visas.
-              </p>
+              <h2>{t("passengerTitle")}</h2>
+              <p>{t("passengerDesc1")}</p>
+              <p>{t("passengerDesc2")}</p>
             </article>
             <article>
-              <h2>Cargo</h2>
-              <p>
-                Namma International Marine Services meets the freight shipping
-                needs of our industrial and corporate clients. With our easy
-                roll/on roll/off service, our clients can ship vehicles
-                including cars, trucks in addition to general cargo, break bulk
-                cargo and refrigerated trailers. Contact us with your
-                specifications.
-              </p>
+              <h2>{t("cargoTitle")}</h2>
+              <p>{t("cargoDesc")}</p>
             </article>
             <article>
-              <h2>Shipping Agency</h2>
-              <p>
-                Namma International Marine Services is ready to meet your agency
-                needs.
-              </p>
+              <h2>{t("shippingTitle")}</h2>
+              <p>{t("shppingDesc")}</p>
             </article>
           </div>
           <div className=" flex-1 flex flex-row sm:flex-col items-center justify-center gap-2">

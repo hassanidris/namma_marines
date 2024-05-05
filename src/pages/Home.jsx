@@ -1,7 +1,9 @@
 import React from "react";
 import { bannerHome1 } from "../constants/images";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <div className="w-full h-full">
       <img

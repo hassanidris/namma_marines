@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
+import { FiAlignJustify, FiChevronDown } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 // import logo from '../../img/logo.png';
 import { logo } from "../constants/images";
+import LanguageSelector from "./LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation(["common"]);
   const [isMenu, setisMenu] = useState(false);
   const [isResponsiveclose, setResponsiveclose] = useState(false);
   const toggleClass = () => {
@@ -34,7 +37,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="header__middle bg-white  h-[90px] flex items-center justify-between shadow-lg sticky top-0">
+    <header className="header__middle bg-white  h-[90px] flex items-center justify-between shadow-lg sticky top-0 px-4">
       <div className="container max-w-[1290px] w-full m-auto flex justify-between items-center">
         <div className="left relative flex justify-between w-full">
           {/* Add Logo  */}
@@ -66,7 +69,7 @@ const Navbar = () => {
                     onClick={toggleClass}
                   >
                     {" "}
-                    <FiAlignRight />{" "}
+                    <FiAlignJustify />{" "}
                   </span>
                 </>
               )}
@@ -79,7 +82,7 @@ const Navbar = () => {
                   {" "}
                   <Link to="#">
                     {" "}
-                    About <FiChevronDown />{" "}
+                    {t("about")} <FiChevronDown />{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
                     <li>
@@ -90,7 +93,7 @@ const Navbar = () => {
                         to={`/profile`}
                       >
                         {" "}
-                        Profile{" "}
+                        {t("profile")}{" "}
                       </NavLink>{" "}
                     </li>
                     <li>
@@ -100,7 +103,7 @@ const Navbar = () => {
                         to={`/history`}
                       >
                         {" "}
-                        History{" "}
+                        {t("history")}{" "}
                       </NavLink>{" "}
                     </li>
                     <li>
@@ -110,7 +113,7 @@ const Navbar = () => {
                         to={`/partners`}
                       >
                         {" "}
-                        Partners{" "}
+                        {t("partners")}{" "}
                       </NavLink>{" "}
                     </li>
                   </ul>
@@ -122,7 +125,7 @@ const Navbar = () => {
                     to={`/services`}
                   >
                     {" "}
-                    Services{" "}
+                    {t("services")}{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">
@@ -132,7 +135,7 @@ const Navbar = () => {
                     to={`/fleets`}
                   >
                     {" "}
-                    Fleets{" "}
+                    {t("fleets")}{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">
@@ -144,7 +147,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Career{" "}
+                    {t("career")}{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">
@@ -154,12 +157,13 @@ const Navbar = () => {
                     to={`/Contact`}
                   >
                     {" "}
-                    Contact{" "}
+                    {t("contact")}{" "}
                   </NavLink>{" "}
                 </li>
               </ul>
             </nav>
           </div>
+          <LanguageSelector />
         </div>
       </div>
     </header>
