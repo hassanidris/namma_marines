@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,17 +8,17 @@
 
 @layer components {
   body {
-    @apply min-h-screen font-roboto;
+    @apply min-h-screen font-cairo;
   }
 
   h1 {
-    @apply text-5xl italic text-primary;
+    @apply text-5xl text-primary;
   }
   h2 {
     @apply text-2xl text-accent font-medium italic;
   }
   p {
-    @apply text-base mb-3 leading-normal text-secondary font-light;
+    @apply text-base mb-3 leading-8 text-secondary font-normal;
   }
   small {
     @apply text-xs;
@@ -119,8 +121,8 @@ li {
 }
 .menu-item a {
   font-size: 20px;
-  font-family: roboto;
-  font-weight: 400;
+  /* font-family: roboto; */
+  font-weight: 600;
   line-height: 40px;
   position: relative;
   display: block;

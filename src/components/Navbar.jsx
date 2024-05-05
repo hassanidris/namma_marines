@@ -47,7 +47,7 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-          <div className="header__middle__menus font-roboto italic font-medium">
+          <div className="header__middle__menus font-bold">
             <nav className="main-nav ">
               {/* Responsive Menu Button */}
               {isResponsiveclose === true ? (

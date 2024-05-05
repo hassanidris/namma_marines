@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
+        cairo: ["cairo", "sans-serif"],
       },
       fontSize: {
         "5xl": [
