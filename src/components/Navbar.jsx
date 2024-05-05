@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <header className="header__middle bg-white  h-[90px] flex items-center justify-between shadow-lg sticky top-0">
       <div className="container max-w-[1290px] w-full m-auto flex justify-between items-center">
-        <div className="left relative flex justify-between w-full">
+        <div className="left relative flex justify-between w-full px-4">
           {/* Add Logo  */}
           <div className="header__middle__logo drop-shadow-lg">
             <NavLink exact activeClassName="is-active" to="/">

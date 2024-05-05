@@ -4,7 +4,7 @@ import { CiGlobe } from "react-icons/ci";
 
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon, GlobeAltIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -40,7 +40,7 @@ const LanguageSelector = () => {
     //   })}
     // </div>
 
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative inline-block text-center">
       <div>
         <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-white px-2 py-1.5 text-sm font-semibold text-accent shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
           <CiGlobe size={25} />
