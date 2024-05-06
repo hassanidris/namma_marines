@@ -161,7 +161,7 @@ const Navbar = () => {
                   </NavLink>{" "}
                 </li>
                 <li className="text-center flex justify-center items-center">
-                  <LanguageSelector />
+                  <LanguageSelector onClick={toggleClass} />
                 </li>
               </ul>
             </nav>

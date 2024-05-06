@@ -15,7 +15,7 @@ const languages = [
   { code: "ar", lang: "العربية" },
 ];
 
-const LanguageSelector = () => {
+const LanguageSelector = ({ onClick }) => {
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -73,7 +73,10 @@ const LanguageSelector = () => {
                           ? "bg-gray-100 text-primary"
                           : "text-accent "
                       }`}
-                      onClick={() => changeLanguage(lng.code)}
+                      onClick={() => {
+                        changeLanguage(lng.code);
+                        onClick();
+                      }}
                     >
                       {lng.lang}
                     </a>

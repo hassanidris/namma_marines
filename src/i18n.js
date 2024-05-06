@@ -9,11 +9,11 @@ i18n
   .use(Backend)
   .init({
     debug: true,
-    lng: document.querySelector("html").lang,
+    // lng: document.querySelector("html").lang,
     fallbackLng: "en",
     returnObjects: true,
     detection: {
-      order: ["htmlTag", "cookie", "localStorage", "path", "subdomain"],
-      caches: ["cookie"],
+      order: ["cookie", "htmlTag", "localStorage", "path", "subdomain"],
+      caches: ["cookie", "localStorage"],
     },
   });
