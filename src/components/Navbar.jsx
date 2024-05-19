@@ -160,7 +160,7 @@ const Navbar = () => {
                     {t("contact")}{" "}
                   </NavLink>{" "}
                 </li>
-                <li className="text-center flex justify-center items-center">
+                <li className="text-center flex justify-center items-center ml-0 sm:ml-4">
                   <LanguageSelector onClick={toggleClass} />
                 </li>
               </ul>

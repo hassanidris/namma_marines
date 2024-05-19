@@ -42,7 +42,7 @@ const LanguageSelector = ({ onClick }) => {
 
     <Menu as="div" className="relative inline-block text-center">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-white px-2 py-1.5 text-sm font-semibold text-accent shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-white px-4 py-1.5 text-sm font-semibold text-accent shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
           <CiGlobe size={25} />
           <ChevronDownIcon
             className="-mr-1 h-5 w-5 text-accent"
