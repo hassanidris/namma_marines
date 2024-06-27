@@ -53,7 +53,7 @@ const Fleets = () => {
               />
             </div>
           </article>
-          <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
+          {/* <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
             <div>
               <h2>{title2}</h2>
               <p>
@@ -78,7 +78,7 @@ const Fleets = () => {
                 alt="Fleet Amanah"
               />
             </div>
-          </article>
+          </article> */}
           <article className="fleetDetails flex justify-between  py-10">
             <div>
               <h2>{title3}</h2>
