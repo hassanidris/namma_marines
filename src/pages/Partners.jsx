@@ -23,9 +23,9 @@ const Partners = () => {
             <p>{line}</p>
             <ul className=" list-disc list-inside pl-5 text-base font-light italic text-primary">
               <li className="list-item">{p1}</li>
-              <li className="list-item">{p2}</li>
+              {/* <li className="list-item">{p2}</li> */}
               <li>{p3}</li>
-              <li>{p4}</li>
+              {/* <li>{p4}</li> */}
               <li>{p5}</li>
               <li>{p6}</li>
             </ul>

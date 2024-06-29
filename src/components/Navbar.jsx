@@ -132,10 +132,10 @@ const Navbar = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/fleets`}
+                    to={`/fleet`}
                   >
                     {" "}
-                    {t("fleets")}{" "}
+                    {t("fleet")}{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">

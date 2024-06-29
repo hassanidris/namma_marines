@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "fleets",
+        path: "fleet",
         element: <Fleets />,
       },
       {
