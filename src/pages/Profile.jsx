@@ -21,7 +21,7 @@ const Profile = () => {
             <p>{paragraph1}</p>
             <p>{paragraph2}</p>
             <p>{paragraph3}</p>
-            <p>{paragraph4}</p>
+            {/* <p>{paragraph4}</p> */}
           </div>
           <div className=" flex-1">
             <img src={imgProfile} alt="profile" />
