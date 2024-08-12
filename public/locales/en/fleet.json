@@ -13,13 +13,13 @@
     "operator2": "<b>Operator:</b> Namma International Marine Services",
     "type2": "<b>Vessel Type:</b> Passenger with roll-on/roll-off vehicle service",
     "number2": "<b>Authorized Number of passengers:</b> 2000 passengers + 98 Crew",
-    "grt2": "<b>GRT =</b> 19,009 MT"
+    "grt2": "<b>Refrigerator:</b> 115 Unit"
   },
   "alnawa": {
-    "title3": "M/V ALNawa Express",
+    "title3": "M/V ALNAWA EXPRESS",
     "operator3": "<b>Operator:</b> Namma International Marine Services",
     "type3": "<b>Vessel Type:</b> Cargo with roll-on/roll-off vehicle service",
     "number3": "<b>Authorized Number of passengers:</b>  26 passengers",
-    "grt3": "<b>GRT =</b> 10,035 MT"
+    "grt3": "<b>Refrigerator:</b> 76 Unit"
   }
 }
