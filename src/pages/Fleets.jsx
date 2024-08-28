@@ -31,9 +31,9 @@ const Fleets = () => {
             <div>
               <h2>{title}</h2>
               <p>
-                <span>
+                {/* <span>
                   <Trans components={{ b: <strong /> }}>{operator}</Trans>
-                </span>
+                </span> */}
                 <span>
                   <Trans components={{ b: <strong /> }}>{type}</Trans>
                 </span>
@@ -41,9 +41,9 @@ const Fleets = () => {
                   <Trans components={{ b: <strong /> }}>{number}</Trans>
                 </span>
               </p>
-              <p className=" text-sm">
+              {/* <p className=" text-sm">
                 <Trans components={{ b: <strong /> }}>{grt}</Trans>
-              </p>
+              </p> */}
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">
               <img
@@ -83,19 +83,19 @@ const Fleets = () => {
             <div>
               <h2>{title3}</h2>
               <p>
-                <span>
+                {/* <span>
                   <Trans components={{ b: <strong /> }}>{operator3}</Trans>
-                </span>
+                </span> */}
                 <span>
                   <Trans components={{ b: <strong /> }}>{type3}</Trans>
                 </span>
-                <span>
+                {/* <span>
                   <Trans components={{ b: <strong /> }}>{number3}</Trans>
-                </span>
+                </span> */}
               </p>
-              <p className=" text-sm">
+              {/* <p className=" text-sm">
                 <Trans components={{ b: <strong /> }}>{grt3}</Trans>
-              </p>
+              </p> */}
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">
               <img

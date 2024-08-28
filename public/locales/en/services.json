@@ -1,10 +1,13 @@
 {
   "title": "Services",
-  "passengerTitle": "Passengers",
-  "passengerDesc1": "Namma International Marine Services offers ferry service on the Red Sea between destinations in Saudi Arabia, Egypt and Sudan. The ports currently served are: Duba, Yanbu and Jeddah in the Kingdom of Saudi Arabia, Safaga and Suez in Egypt and Sawakin in Sudan.",
-  "passengerDesc2": "In addition, our agents can assist you with other travel needs you may have such as hotel accommodation, transportation overland, visas.",
-  "cargoTitle": "Cargo",
-  "cargoDesc": "Namma International Marine Services meets the freight shipping needs of our industrial and corporate clients. With our easy roll/on roll/off service, our clients can ship vehicles including cars, trucks in addition to general cargo, break bulk cargo and refrigerated trailers. Contact us with your specifications.",
-  "shippingTitle": "Shipping Agency",
-  "shppingDesc": "Namma International Marine Services is ready to meet your agency needs."
+  "passengerTitle": "Passenger Transportation and Issuing Travel Tickets for Scheduled Trips",
+  "passengerDesc1": "Namma Global Marine Services Company provides ferry services on the Red Sea between destinations in the Kingdom of Saudi Arabia, Egypt, and Sudan. The ports it currently serves are: Jeddah in the Kingdom of Saudi Arabia, Suez in Egypt, and Sawakin in Sudan.",
+  "passengerDesc2": "In addition, pilgrims and Umrah performers coming from Sudan are transported to perform Hajj and Umrah rituals.",
+  "passengerDesc3": "Our agents can also assist you with your other travel needs, such as hotel accommodation, ground transportation, and visas.",
+  "cargoTitle": "Vehicle and Cargo Shipping",
+  "cargoDesc": "Namma international, Marine Services meets the cargo shipping needs of our industrial customers and companies, through our easy-to-use loading and unloading service.",
+  "shippingTitle": "Transportation of Reefer, Transit, and Vehicles",
+  "shppingDesc": "Our customers can ship vehicles including cars, trucks, as well as general and partial cargo, and refrigerated trailers.",
+  "umrahTitle": "Hajj and Umrah",
+  "umrahDesc": ""
 }

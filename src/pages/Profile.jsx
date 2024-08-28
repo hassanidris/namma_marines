@@ -4,7 +4,16 @@ import { useTranslation } from "react-i18next";
 
 const Profile = () => {
   const { t } = useTranslation(["profile"]);
-  const { paragraph1, paragraph2, paragraph3, paragraph4 } = t("description");
+  const {
+    paragraph1,
+    paragraph2,
+    point1,
+    point2,
+    point3,
+    point4,
+    paragraph3,
+    paragraph4,
+  } = t("description");
   return (
     <>
       <section className=" w-full h-[400px]">
@@ -20,7 +29,14 @@ const Profile = () => {
           <div className=" flex-[1.5]">
             <p>{paragraph1}</p>
             <p>{paragraph2}</p>
-            <p>{paragraph3}</p>
+            {/* <p>{paragraph3}</p> */}
+            <ul className=" list-disc list-inside pl-5 text-base font-light italic text-primary">
+              <li>{point1}</li>
+              <li>{point2}</li>
+              <li>{point3}</li>
+              <li>{point4}</li>
+            </ul>
+
             {/* <p>{paragraph4}</p> */}
           </div>
           <div className=" flex-1">

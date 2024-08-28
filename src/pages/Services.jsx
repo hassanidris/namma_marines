@@ -30,6 +30,10 @@ const Services = () => {
               <h2>{t("shippingTitle")}</h2>
               <p>{t("shppingDesc")}</p>
             </article>
+            <article>
+              <h2>{t("umrahTitle")}</h2>
+              <p>{t("umrahDesc")}</p>
+            </article>
           </div>
           <div className=" flex-1 flex flex-row sm:flex-col items-center justify-center gap-2">
             <div className=" p-10 bg-primary rounded-full h-[210px] w-[210px] flex justify-center items-center border-[15px] border-accent hover:border-primary hover:bg-accent">

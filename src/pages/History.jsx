@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 
 const History = () => {
   const { t } = useTranslation(["history"]);
-  const { paragraph1, paragraph2 } = t("description");
+  const { description1, title1_1, description1_1, title1_2, description1_2 } =
+    t("description");
   return (
     <>
       <section className=" w-full h-[400px]">
@@ -18,8 +19,15 @@ const History = () => {
         <h1>{t("title")}</h1>
         <div className=" flex flex-col sm:flex-row justify-center gap-5">
           <div className=" flex-[1.5]">
-            <p>{paragraph1}</p>
-            <p>{paragraph2}</p>
+            <p>{description1}</p>
+            <article>
+              <h2>{title1_1}</h2>
+              <p>{description1_1}</p>
+            </article>
+            <article>
+              <h2>{title1_2}</h2>
+              <p>{description1_2}</p>
+            </article>
           </div>
           <div className=" flex-1">
             <img src={imgHistory} alt="profile" />
