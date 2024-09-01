@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <History />,
       },
       {
-        path: "partners",
+        path: "ceo",
         element: <Partners />,
       },
       {

@@ -23,9 +23,9 @@ const Contact = () => {
             <p className=" text-sm">
               <Trans components={{ b: <strong /> }}>{t("tel")}</Trans>
             </p>
-            <p className=" text-sm">
+            {/* <p className=" text-sm">
               <Trans components={{ b: <strong /> }}>{t("toll")}</Trans>
-            </p>
+            </p> */}
             <p className=" text-sm">
               <Trans components={{ b: <strong /> }}>{t("fax")}</Trans>
             </p>

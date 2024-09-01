@@ -106,16 +106,16 @@ const Navbar = () => {
                         {t("history")}{" "}
                       </NavLink>{" "}
                     </li>
-                    <li>
+                    {/* <li>
                       <NavLink
                         onClick={toggleClass}
                         activeClassName="is-active"
-                        to={`/partners`}
+                        to={`/ceo`}
                       >
                         {" "}
                         {t("partners")}{" "}
                       </NavLink>{" "}
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="menu-item ">
