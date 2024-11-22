@@ -4,13 +4,14 @@ import {
   fleetAlnawa,
   fleetAmanah,
   fleetAziz,
+  fleetJoudy,
 } from "../constants/images";
 import { Trans, useTranslation } from "react-i18next";
 
 const Fleets = () => {
   const { t } = useTranslation(["fleet"]);
   const { title, operator, type, number, grt } = t("aziz");
-  const { title2, operator2, type2, number2, grt2 } = t("amanah");
+  const { title2, operator2, type2, number2, grt2 } = t("Jody");
   const { title3, operator3, type3, number3, grt3 } = t("alnawa");
   return (
     <>
@@ -53,13 +54,13 @@ const Fleets = () => {
               />
             </div>
           </article>
-          {/* <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
+          <article className="fleetDetails flex justify-between border-b-[1px] border-accent py-10">
             <div>
               <h2>{title2}</h2>
               <p>
-                <span>
+                {/* <span>
                   <Trans components={{ b: <strong /> }}>{operator2}</Trans>
-                </span>
+                </span> */}
                 <span>
                   <Trans components={{ b: <strong /> }}>{type2}</Trans>
                 </span>
@@ -67,18 +68,18 @@ const Fleets = () => {
                   <Trans components={{ b: <strong /> }}>{number2}</Trans>
                 </span>
               </p>
-              <p className=" text-sm">
+              {/* <p className=" text-sm">
                 <Trans components={{ b: <strong /> }}>{grt2}</Trans>
-              </p>
+              </p> */}
             </div>
             <div className=" rounded-full overflow-hidden size-56 border-[12px] border-accent hover:border-primary hover:bg-accent">
               <img
                 className=" w-full h-full object-cover"
-                src={fleetAmanah}
+                src={fleetJoudy}
                 alt="Fleet Amanah"
               />
             </div>
-          </article> */}
+          </article>
           <article className="fleetDetails flex justify-between  py-10">
             <div>
               <h2>{title3}</h2>

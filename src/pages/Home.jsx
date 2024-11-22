@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="w-full h-full">
       <img
-        className="w-full h-[calc(100vh-140px)] object-cover"
+        className="w-full h-[calc(100vh-140px)] object-cover object-left"
         src={bannerHome1}
         alt=""
       />

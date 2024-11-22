@@ -11,6 +11,7 @@ import iconPassenger from "../assets/images/iconPassenger.webp";
 import iconCargo from "../assets/images/iconCargo.webp";
 import fleetAlnawa from "../assets/images/fleetAlnawa.webp";
 import fleetAmanah from "../assets/images/fleetAmanah.webp";
+import fleetJoudy from "../assets/images/fleetJoudy.jpg";
 import fleetAziz from "../assets/images/fleetAziz.webp";
 import ceoImg from "../assets/images/ceo.jpg";
 
@@ -29,5 +30,6 @@ export {
   fleetAlnawa,
   fleetAmanah,
   fleetAziz,
+  fleetJoudy,
   ceoImg,
 };

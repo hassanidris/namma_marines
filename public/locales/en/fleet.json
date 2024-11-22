@@ -2,21 +2,21 @@
   "name": "Fleet",
   "description": "Safety, dependability and comfort drive our services at Namma Shipping Lines and ensure that our customers are satisfied because their needs are met. We believe that a strong fleet with comfortable and affordable accommodations along with the services our customers need, is crucial to ensuring a safe, pleasant journey. Below are details  about the fleet, both passenger and cargo vessels.",
   "aziz": {
-    "title": "Ferry 'Aziz Express'",
+    "title": "The ferry 'Aziz Express'",
     "operator": "<b>Operator:</b> Namma International Marine Services",
     "type": "<b>Vessel Type:</b> Cargo service with car loading and unloading",
     "number": "<b>Authorized Passenger Capacity:</b> 330 passengers",
     "grt": "<b>GRT =</b> 22,874 MT"
   },
-  "amanah": {
-    "title2": "M/V Amanah",
+  "Jody": {
+    "title2": "The ferry 'Jody Express'",
     "operator2": "<b>Operator:</b> Namma International Marine Services",
-    "type2": "<b>Vessel Type:</b> Passenger with roll-on/roll-off vehicle service",
-    "number2": "<b>Authorized Number of passengers:</b> 2000 passengers + 98 Crew",
+    "type2": "<b>Vessel Type:</b> Passenger and cargo transport service with vehicle loading and unloading",
+    "number2": "<b>Authorized Number of passengers:</b> 799 passengers",
     "grt2": "<b>Refrigerator:</b> 115 Unit"
   },
   "alnawa": {
-    "title3": "Ferry 'Al.Nawa Express'",
+    "title3": "The ferry 'Al.Nawa Express'",
     "operator3": "<b>Operator:</b> Namma International Marine Services",
     "type3": "<b>Vessel Type:</b> Cargo service with car loading and unloading",
     "number3": "",

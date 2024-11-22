@@ -9,7 +9,7 @@ const Contact = () => {
       <section className=" w-full h-[400px]">
         <iframe
           className=" w-full h-full"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.214182964864!2d39.171422299999996!3d21.499329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cf7438181ecd%3A0xd63a923a5fc3c35d!2sAL%20BARRAK%20SHIPPING!5e0!3m2!1sen!2sse!4v1723460927995!5m2!1sen!2sse"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.9871788309542!2d39.1850325!3d21.469019700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cf3aa860c137%3A0x534fa8062396121a!2z2LTYsdmD2Ycg2YbZhdinINin2YTYudin2YTZhdmK2Kkg2YTZhNiu2K_Zhdin2Kog2KfZhNio2K3YsdmK2Yc!5e0!3m2!1sen!2sse!4v1730287633886!5m2!1sen!2sse"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

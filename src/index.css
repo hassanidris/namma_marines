@@ -29,7 +29,6 @@
   }
 }
 
-
 .is-active {
   color: #ff5800 !important;
 }
@@ -190,7 +189,7 @@ li {
     z-index: 10007;
     background-color: #fff;
     top: 90px;
-    padding-top: 200px;
+    padding-top: 10vh;
     padding-inline: 100px;
     /* border-bottom: 3px solid #ff3d00; */
     /* right: 0; */
