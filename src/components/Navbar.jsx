@@ -138,7 +138,7 @@ const Navbar = () => {
                     {t("fleet")}{" "}
                   </NavLink>{" "}
                 </li>
-                <li className="menu-item ">
+                {/* <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
@@ -149,7 +149,7 @@ const Navbar = () => {
                     {" "}
                     {t("career")}{" "}
                   </NavLink>{" "}
-                </li>
+                </li> */}
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
